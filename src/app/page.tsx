@@ -20,7 +20,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="small"
       sizing="largeSmallSizeLargeTitles"
-      background="blurBottom"
+      background="circleGradient"
       cardStyle="soft-shadow"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="layered"
@@ -46,7 +46,7 @@ export default function LandingPage() {
           description="Share, discover, and master science subjects through collaborative study notes. Explore comprehensive summaries for physics, chemistry, and biology with interactive learning maps and expert insights."
           tag="Educational Platform"
           tagIcon={Sparkles}
-          background={{ variant: "blurBottom" }}
+          background={{ variant: "plain" }}
           mediaItems={[
             {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-vibrant-study-platform-dashboard-showi-1773313363665-fb479a1b.png",              imageAlt: "Interactive study platform dashboard"
@@ -93,15 +93,15 @@ export default function LandingPage() {
           features={[
             {
               id: "1",              title: "Comprehensive Subject Notes",              tags: ["Physics", "Chemistry", "Biology"],
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-comprehensive-subject-notes-interface--1773313363074-b689e786.png?_wi=1",              imageAlt: "Physics comprehensive subject notes"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-comprehensive-subject-notes-interface--1773313363074-b689e786.png",              imageAlt: "Physics comprehensive subject notes"
             },
             {
               id: "2",              title: "Interactive Learning Maps",              tags: ["Visualization", "Concept Links"],
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/an-interactive-learning-map-visualizatio-1773313364389-74612980.png?_wi=1",              imageAlt: "Chemistry interactive learning maps"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/an-interactive-learning-map-visualizatio-1773313364389-74612980.png",              imageAlt: "Chemistry interactive learning maps"
             },
             {
               id: "3",              title: "Detailed Reference Guides",              tags: ["Anatomy", "Systems"],
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-biology-reference-guide-showing-detail-1773313362361-315e53ce.png?_wi=1",              imageAlt: "Biology reference guide"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-biology-reference-guide-showing-detail-1773313362361-315e53ce.png",              imageAlt: "Biology reference guide"
             }
           ]}
           animationType="slide-up"
@@ -118,13 +118,13 @@ export default function LandingPage() {
           tagIcon={Library}
           products={[
             {
-              id: "1",              name: "Physics Fundamentals Bundle",              price: "Free",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-comprehensive-subject-notes-interface--1773313363074-b689e786.png?_wi=2",              imageAlt: "Physics notes collection",              initialQuantity: 1
+              id: "1",              name: "Physics Fundamentals Bundle",              price: "Free",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-comprehensive-subject-notes-interface--1773313363074-b689e786.png",              imageAlt: "Physics notes collection",              initialQuantity: 1
             },
             {
-              id: "2",              name: "Chemistry Periodic Guide",              price: "Free",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/an-interactive-learning-map-visualizatio-1773313364389-74612980.png?_wi=2",              imageAlt: "Chemistry reference guide",              initialQuantity: 1
+              id: "2",              name: "Chemistry Periodic Guide",              price: "Free",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/an-interactive-learning-map-visualizatio-1773313364389-74612980.png",              imageAlt: "Chemistry reference guide",              initialQuantity: 1
             },
             {
-              id: "3",              name: "Biology Systems Encyclopedia",              price: "Free",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-biology-reference-guide-showing-detail-1773313362361-315e53ce.png?_wi=2",              imageAlt: "Biology comprehensive guide",              initialQuantity: 1
+              id: "3",              name: "Biology Systems Encyclopedia",              price: "Free",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AqGkBrKEg1odNGcW88rAlikQ3n/a-biology-reference-guide-showing-detail-1773313362361-315e53ce.png",              imageAlt: "Biology comprehensive guide",              initialQuantity: 1
             }
           ]}
           gridVariant="three-columns-all-equal-width"
